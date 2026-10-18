@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kachalovg.github.io/kachalova-lor-2/sitemap.xml
