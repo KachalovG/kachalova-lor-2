@@ -41,7 +41,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 14px/1.7 var(--sans);
+  font: 16px/1.7 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -104,7 +104,7 @@ p {
   padding-block: 110px;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.18em;
   line-height: 1.6;
@@ -122,7 +122,7 @@ p {
   color: var(--paper);
   padding: 15px 23px;
   border: 1px solid var(--green);
-  font-size: 12px;
+  font-size: 15px;
   transition:
     background 0.2s,
     transform 0.2s;
@@ -142,7 +142,7 @@ p {
   gap: 20px;
   padding-block: 8px;
   border-bottom: 1px solid #9baba0;
-  font-size: 12px;
+  font-size: 15px;
 }
 .text-link span {
   font-size: 18px;
@@ -205,7 +205,7 @@ p {
 }
 .brand-name small {
   display: block;
-  font: 8px/1.5 var(--sans);
+  font: 10px/1.5 var(--sans);
   letter-spacing: 0.13em;
   margin-top: 7px;
 }
@@ -214,7 +214,7 @@ p {
   align-items: center;
   gap: 27px;
   margin-left: auto;
-  font-size: 11px;
+  font-size: 14px;
 }
 .nav a {
   padding: 10px 0;
@@ -228,7 +228,7 @@ p {
   display: flex;
   align-items: center;
   gap: 29px;
-  font-size: 11px;
+  font-size: 14px;
   border: 1px solid #aab6a9;
   padding: 10px 17px;
 }
@@ -287,11 +287,11 @@ p {
   margin-top: 12px;
 }
 .doctor-name {
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 7px;
 }
 .hero-intro .muted {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.85;
 }
 .hero-actions {
@@ -301,7 +301,7 @@ p {
   margin-top: 31px;
 }
 .hero-actions .text-link {
-  font-size: 10px;
+  font-size: 13px;
   gap: 15px;
 }
 .hero-note {
@@ -310,7 +310,7 @@ p {
   gap: 13px;
   align-items: center;
   color: #6f7868;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.65;
 }
 .note-icon {
@@ -363,7 +363,7 @@ p {
   vertical-align: top;
 }
 .experience-seal > span {
-  font: 8px/1.5 var(--sans);
+  font: 10px/1.5 var(--sans);
   letter-spacing: 0.14em;
   text-align: center;
   margin-top: 7px;
@@ -373,12 +373,12 @@ p {
   align-items: center;
   gap: 8px;
   padding-top: 17px;
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .caption-number {
   margin-left: auto;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.12em;
 }
 .trust-strip {
@@ -389,7 +389,7 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .trust-strip p {
   display: flex;
@@ -398,10 +398,10 @@ p {
 }
 .trust-strip p span {
   color: #828c7a;
-  font-size: 9px;
+  font-size: 12px;
 }
 .trust-strip > a {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
   display: flex;
   gap: 28px;
@@ -419,7 +419,7 @@ p {
 .section-description {
   max-width: 295px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.95;
   padding-bottom: 6px;
 }
@@ -449,7 +449,7 @@ summary::-webkit-details-marker {
   padding: 22px 0;
 }
 .service-number {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
   width: 19px;
 }
@@ -482,7 +482,7 @@ details[open] > summary .plus::after {
 .service-body {
   padding: 0 22px 25px 39px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.9;
   max-width: 450px;
 }
@@ -491,7 +491,7 @@ details[open] > summary .plus::after {
 }
 .service-body .text-link {
   color: var(--green);
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 15px;
 }
 .expertise-photo {
@@ -524,7 +524,7 @@ details[open] > summary .plus::after {
 }
 .expertise-photo figcaption span {
   display: block;
-  font: 9px var(--sans);
+  font: 11px var(--sans);
   letter-spacing: 0.17em;
   margin-bottom: 10px;
 }
@@ -561,7 +561,7 @@ details[open] > summary .plus::after {
 }
 .photo-label span {
   display: block;
-  font: 9px/1.5 var(--sans);
+  font: 12px/1.5 var(--sans);
   margin-top: 8px;
   letter-spacing: 0.04em;
 }
@@ -585,7 +585,7 @@ details[open] > summary .plus::after {
   max-width: 460px;
 }
 .about-copy > p:not(.eyebrow) {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.95;
   color: #d3dacf;
   margin-top: 15px;
@@ -603,7 +603,7 @@ details[open] > summary .plus::after {
   display: flex;
   align-items: center;
   padding: 17px 0;
-  font-size: 12px;
+  font-size: 15px;
 }
 .credential-content {
   padding: 4px 0 20px;
@@ -613,7 +613,7 @@ details[open] > summary .plus::after {
   grid-template-columns: 80px 1fr;
   gap: 16px;
   margin-top: 14px;
-  font-size: 11px;
+  font-size: 14px;
   color: #d3dacf;
 }
 .credential-content b {
@@ -632,13 +632,13 @@ details[open] > summary .plus::after {
 .philosophy-copy > p:not(.eyebrow) {
   color: var(--muted);
   max-width: 540px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.95;
   margin-top: 25px;
 }
 .philosophy .text-link {
   margin-top: 21px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .care-image {
   position: relative;
@@ -684,7 +684,7 @@ details[open] > summary .plus::after {
   gap: 10px;
 }
 .clinic-top .eyebrow {
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.14em;
 }
 .clinic-icon {
@@ -698,7 +698,7 @@ details[open] > summary .plus::after {
   white-space: nowrap;
 }
 .clinic-description {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.9;
   color: var(--muted);
   margin-top: 17px;
@@ -707,13 +707,13 @@ details[open] > summary .plus::after {
 .clinic-address {
   margin-top: 29px;
   margin-bottom: 26px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .metro {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .metro-dot {
   width: 6px;
@@ -728,13 +728,13 @@ details[open] > summary .plus::after {
 .clinic-address p {
   margin-top: 8px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
 }
 .clinic-card .button {
   margin-top: auto;
   min-height: 48px;
   padding: 12px 15px;
-  font-size: 10px;
+  font-size: 13px;
   gap: 12px;
 }
 .button-outline {
@@ -788,7 +788,7 @@ details[open] > summary .plus::after {
 }
 .contact-grid p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 24px;
   line-height: 1.9;
 }
@@ -810,13 +810,13 @@ details[open] > summary .plus::after {
   font: 19px var(--sans);
 }
 .email-link {
-  font-size: 15px;
+  font-size: 16px;
 }
 .social-links {
   display: flex;
   gap: 32px;
   margin-top: 23px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .social-links a {
   display: flex;
@@ -846,11 +846,11 @@ details[open] > summary .plus::after {
   font-size: 22px;
 }
 .footer-top > p {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .back-top {
-  font-size: 10px;
+  font-size: 13px;
   display: flex;
   gap: 25px;
 }
@@ -862,10 +862,10 @@ details[open] > summary .plus::after {
   justify-content: space-between;
   gap: 20px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 12px;
 }
 .footer-bottom p {
-  font-size: 10px;
+  font-size: 13px;
 }
 .mobile-book {
   display: none;
@@ -906,7 +906,7 @@ dialog h2 {
   margin-top: 20px;
 }
 .dialog-intro {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--muted);
   margin-top: 17px;
 }
@@ -933,7 +933,7 @@ dialog h2 {
 }
 .booking-options small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   margin-top: 9px;
 }
@@ -943,7 +943,7 @@ dialog h2 {
 .dialog-phone {
   display: block;
   margin-top: 25px;
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 @media (min-width: 1500px) {
@@ -969,7 +969,7 @@ dialog h2 {
     font-size: 22px;
   }
   .brand-name small {
-    font-size: 7px;
+    font-size: 10px;
   }
   .nav {
     gap: 20px;
@@ -1086,16 +1086,16 @@ dialog h2 {
     font-size: 6.1vw;
   }
   .hero .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .doctor-name {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-intro {
     gap: 13px;
   }
   .hero-intro .muted {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-actions {
     gap: 12px;
@@ -1104,7 +1104,7 @@ dialog h2 {
     margin-top: 25px;
   }
   .hero-actions .button {
-    font-size: 11px;
+    font-size: 14px;
     min-height: 52px;
   }
   .hero-note {
@@ -1120,10 +1120,10 @@ dialog h2 {
     font-size: 36px;
   }
   .experience-seal > span {
-    font-size: 7px;
+    font-size: 10px;
   }
   .trust-strip {
-    font-size: 9px;
+    font-size: 12px;
   }
   .trust-strip p {
     gap: 9px;
@@ -1139,7 +1139,7 @@ dialog h2 {
   }
   .section-description {
     max-width: 245px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .expertise-grid {
     gap: 35px;
@@ -1152,7 +1152,7 @@ dialog h2 {
   }
   .service-body {
     padding-left: 32px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .about-grid {
     gap: 40px;
@@ -1167,7 +1167,7 @@ dialog h2 {
     font-size: 25px;
   }
   .about-copy > p:not(.eyebrow) {
-    font-size: 11px;
+    font-size: 14px;
   }
   .philosophy {
     gap: 50px;
@@ -1186,24 +1186,24 @@ dialog h2 {
     font-size: 26px;
   }
   .clinic-top .eyebrow {
-    font-size: 7px;
+    font-size: 10px;
   }
   .clinic-description {
-    font-size: 10px;
+    font-size: 13px;
     min-height: 78px;
   }
   .clinic-card .button {
-    font-size: 9px;
+    font-size: 12px;
     padding: 10px;
   }
   .clinic-address {
-    font-size: 9px;
+    font-size: 12px;
   }
   .clinic-address p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .metro {
-    font-size: 10px;
+    font-size: 13px;
   }
   .contact-grid {
     gap: 45px;
@@ -1212,7 +1212,7 @@ dialog h2 {
     font-size: 30px;
   }
   .email-link {
-    font-size: 13px;
+    font-size: 16px;
   }
   .footer-top > p {
     max-width: 180px;
@@ -1238,7 +1238,7 @@ dialog h2 {
     font-size: 22px;
   }
   .brand-name small {
-    font-size: 6.7px;
+    font-size: 9px;
     letter-spacing: 0.09em;
   }
   .monogram {
@@ -1249,7 +1249,7 @@ dialog h2 {
     font-size: 28px;
   }
   .header-book {
-    font-size: 10px;
+    font-size: 13px;
     padding: 7px 10px;
     gap: 12px;
   }
@@ -1268,7 +1268,7 @@ dialog h2 {
     flex-wrap: wrap;
     padding: 18px 20px;
     gap: 15px 24px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -1277,7 +1277,7 @@ dialog h2 {
     gap: 35px;
   }
   .hero .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     margin-bottom: 21px;
     letter-spacing: 0.14em;
   }
@@ -1291,10 +1291,10 @@ dialog h2 {
     gap: 14px;
   }
   .doctor-name {
-    font-size: 12px;
+    font-size: 15px;
   }
   .hero-intro .muted {
-    font-size: 12px;
+    font-size: 15px;
   }
   .hero-actions {
     flex-direction: row;
@@ -1303,13 +1303,13 @@ dialog h2 {
     margin-top: 24px;
   }
   .hero-actions .button {
-    font-size: 11px;
+    font-size: 14px;
     min-height: 52px;
     padding: 13px 17px;
     gap: 19px;
   }
   .hero-actions .text-link {
-    font-size: 9px;
+    font-size: 12px;
     gap: 9px;
   }
   .hero-visual {
@@ -1336,10 +1336,10 @@ dialog h2 {
     font-size: 41px;
   }
   .experience-seal > span {
-    font-size: 7px;
+    font-size: 10px;
   }
   .portrait-caption {
-    font-size: 8px;
+    font-size: 11px;
   }
   .trust-strip {
     gap: 13px;
@@ -1350,11 +1350,11 @@ dialog h2 {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.5;
   }
   .trust-strip p span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .section {
     padding-block: 65px;
@@ -1363,7 +1363,7 @@ dialog h2 {
     font-size: 44px;
   }
   .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 0.15em;
   }
   .section-heading {
@@ -1375,7 +1375,7 @@ dialog h2 {
   }
   .section-description {
     max-width: 360px;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 22px;
   }
   .expertise-grid {
@@ -1390,13 +1390,13 @@ dialog h2 {
     gap: 17px;
   }
   .service-body {
-    font-size: 12px;
+    font-size: 15px;
     padding-left: 36px;
     padding-bottom: 23px;
     max-width: 100%;
   }
   .service-body .text-link {
-    font-size: 11px;
+    font-size: 14px;
   }
   .expertise-photo {
     min-height: 0;
@@ -1411,7 +1411,7 @@ dialog h2 {
     left: 24px;
   }
   .expertise-photo figcaption span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .about-section {
     padding-block: 55px;
@@ -1449,7 +1449,7 @@ dialog h2 {
     margin-block: 24px;
   }
   .about-copy > p:not(.eyebrow) {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 14px;
     line-height: 1.9;
   }
@@ -1457,11 +1457,11 @@ dialog h2 {
     margin-top: 26px;
   }
   .credentials summary {
-    font-size: 13px;
+    font-size: 16px;
     padding: 18px 0;
   }
   .credential-content p {
-    font-size: 12px;
+    font-size: 15px;
     grid-template-columns: 78px 1fr;
   }
   .philosophy {
@@ -1472,7 +1472,7 @@ dialog h2 {
     font-size: 43px;
   }
   .philosophy-copy > p:not(.eyebrow) {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 21px;
   }
   .care-image {
@@ -1496,14 +1496,14 @@ dialog h2 {
     min-height: 0;
   }
   .clinic-top .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .clinic-card h3 {
     font-size: 38px;
     margin-top: 22px;
   }
   .clinic-description {
-    font-size: 12px;
+    font-size: 15px;
     min-height: 0;
     max-width: 340px;
   }
@@ -1511,13 +1511,13 @@ dialog h2 {
     margin-block: 24px;
   }
   .metro {
-    font-size: 12px;
+    font-size: 15px;
   }
   .clinic-address p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .clinic-card .button {
-    font-size: 11px;
+    font-size: 14px;
     min-height: 51px;
     padding: 13px 17px;
   }
@@ -1529,7 +1529,7 @@ dialog h2 {
     font-size: 47px;
   }
   .contact-grid p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .contact-grid .button {
     margin-top: 24px;
@@ -1541,10 +1541,10 @@ dialog h2 {
     font-size: 36px;
   }
   .email-link {
-    font-size: 14px;
+    font-size: 16px;
   }
   .social-links {
-    font-size: 12px;
+    font-size: 15px;
     gap: 30px;
   }
   .contact-signature {
@@ -1563,7 +1563,7 @@ dialog h2 {
     order: 2;
     max-width: none;
     width: 100%;
-    font-size: 10px;
+    font-size: 13px;
   }
   .back-top {
     margin-left: auto;
@@ -1574,7 +1574,7 @@ dialog h2 {
     padding-bottom: 95px;
   }
   .footer-bottom p {
-    font-size: 9px;
+    font-size: 12px;
     margin-top: 10px;
   }
   .mobile-book {
@@ -1592,7 +1592,7 @@ dialog h2 {
   .mobile-book .button {
     width: 100%;
     min-height: 46px;
-    font-size: 12px;
+    font-size: 15px;
     padding: 11px 18px;
   }
   .dialog-open .mobile-book {
@@ -1606,16 +1606,16 @@ dialog h2 {
     font-size: 45px;
   }
   .dialog-intro {
-    font-size: 11px;
+    font-size: 14px;
   }
   .booking-options b {
     font-size: 28px;
   }
   .booking-options small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .dialog-phone {
-    font-size: 10px;
+    font-size: 13px;
   }
   .desktop-break {
     display: none;
@@ -1635,10 +1635,10 @@ dialog h2 {
     gap: 14px;
   }
   .hero-actions .text-link {
-    font-size: 8px;
+    font-size: 11px;
   }
   .hero-actions .button {
-    font-size: 10px;
+    font-size: 13px;
     gap: 12px;
     padding-inline: 13px;
   }
@@ -1660,7 +1660,7 @@ dialog h2 {
 .service-body,
 .section-description,
 .clinic-description {
-  font-size: 13px;
+  font-size: 16px;
 }
 .clinic-card {
   min-width: 0;
@@ -1694,46 +1694,166 @@ dialog h2 {
   .philosophy-copy > p:not(.eyebrow),
   .clinic-description,
   .contact-grid p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .credential-content p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .hero-actions .text-link {
-    font-size: 10px;
-  }
-  .clinic-address p {
-    font-size: 12px;
-  }
-  .clinic-card .button {
-    font-size: 12px;
-  }
-  .credentials summary {
-    font-size: 14px;
-  }
-  .dialog-intro {
     font-size: 13px;
   }
+  .clinic-address p {
+    font-size: 15px;
+  }
+  .clinic-card .button {
+    font-size: 15px;
+  }
+  .credentials summary {
+    font-size: 16px;
+  }
+  .dialog-intro {
+    font-size: 16px;
+  }
   .booking-options small {
-    font-size: 11px;
+    font-size: 14px;
   }
   .dialog-phone {
-    font-size: 12px;
+    font-size: 15px;
   }
   .footer-bottom p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media (max-width: 380px) {
-  .hero-actions {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   .hero-actions .text-link {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-actions .button {
+    font-size: 15px;
+  }
+}
+/* Keep mobile actions and heading phrases aligned without shrinking body text. */
+.heading-line {
+  display: block;
+}
+.hero-actions > a > span[aria-hidden] {
+  flex-shrink: 0;
+}
+.section-description {
+  max-width: 330px;
+}
+.clinic-description {
+  min-height: 90px;
+}
+.credential-content p {
+  grid-template-columns: 90px 1fr;
+}
+@media (max-width: 700px) {
+  .header-book {
+    display: none;
+  }
+  .menu-toggle {
+    margin-left: auto;
+  }
+  .brand-name small {
+    font-size: 9px;
+  }
+  .hero-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+  }
+  .hero-actions .button,
+  .hero-actions .text-link {
+    min-width: 0;
+    min-height: 64px;
+    margin: 0;
+    padding: 12px;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 1.45;
+    justify-content: space-between;
+    text-wrap: balance;
+  }
+  .hero-actions .text-link {
+    border: 1px solid #aab6a9;
+  }
+  .hero-actions .button span,
+  .hero-actions .text-link span {
+    font-size: 18px;
+  }
+  .hero-intro .muted,
+  .service-body,
+  .section-description,
+  .about-copy > p:not(.eyebrow),
+  .philosophy-copy > p:not(.eyebrow),
+  .clinic-description,
+  .contact-grid p {
+    line-height: 1.75;
+  }
+  .portrait-caption {
+    gap: 6px;
+    flex-wrap: wrap;
     font-size: 12px;
+  }
+  .caption-number {
+    font-size: 10px;
+    letter-spacing: .06em;
+  }
+  .trust-strip {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    padding-block: 22px;
+  }
+  .trust-strip p {
+    font-size: 13px;
+    line-height: 1.5;
+    gap: 8px;
+  }
+  .trust-strip p span {
+    font-size: 11px;
+  }
+  .philosophy h2 {
+    width: 100%;
+    font-size: clamp(27px, 8.8vw, 44px);
+    line-height: 1.12;
+    letter-spacing: -.035em;
+  }
+  .contact-grid h2 {
+    width: 100%;
+    font-size: clamp(30px, 10.1vw, 47px);
+    line-height: 1.12;
+  }
+  .service summary {
+    gap: 12px;
+  }
+  .service-number {
+    width: 18px;
+    flex-shrink: 0;
+  }
+  .service h3 {
+    font-size: clamp(27px, 7.8vw, 34px);
+    line-height: 1.12;
+  }
+  .section-description {
+    max-width: none;
+  }
+  .clinic-description {
+    min-height: 0;
+  }
+  .credential-content p {
+    grid-template-columns: 83px minmax(0, 1fr);
+    gap: 12px;
+  }
+  .dialog-phone {
+    font-size: 13px;
+  }
+  .mobile-book .button {
+    font-size: 15px;
+    min-height: 50px;
   }
 }
 @media (prefers-reduced-motion: reduce) {

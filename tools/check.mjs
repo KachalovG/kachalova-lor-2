@@ -26,7 +26,7 @@ const files = new Set();
 for (const [, file] of html.matchAll(
   /(?:src|href)="((?:assets|css|js)\/[^"#]+)"/g,
 ))
-  files.add(file);
+  files.add(file.split("?")[0]);
 for (const [, set] of html.matchAll(/srcset="([^"]+)"/g))
   for (const item of set.split(",")) files.add(item.trim().split(" ")[0]);
 for (const file of files) await access(path.join(root, file));
