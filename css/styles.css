@@ -666,7 +666,7 @@ details[open] > summary .plus::after {
 }
 .clinic-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 19px;
 }
 .clinic-card {
@@ -745,34 +745,6 @@ details[open] > summary .plus::after {
 .button-outline:hover {
   background: var(--green);
   color: white;
-}
-.clinic-online {
-  background: var(--green);
-  color: var(--paper);
-  border-color: var(--green);
-}
-.clinic-online .clinic-description,
-.clinic-online .clinic-address p {
-  color: #ced7c6;
-}
-.clinic-online .eyebrow {
-  color: #d9dfd0;
-}
-.clinic-online .status-dot {
-  background: #c6d4a7;
-}
-.online-icon {
-  font-size: 26px;
-  color: #becbab;
-}
-.button-light {
-  background: #e4e8d9;
-  color: var(--green);
-  border-color: #e4e8d9;
-}
-.button-light:hover {
-  background: white;
-  color: var(--green);
 }
 .contact-section > .eyebrow {
   margin-bottom: 24px;
