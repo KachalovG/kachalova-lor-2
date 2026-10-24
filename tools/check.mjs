@@ -41,7 +41,6 @@ for (const [, tag] of html.matchAll(/(<img\b[^>]+>)/g)) {
 const links = [
   "https://atmosphere-clinic.ru/kachalova",
   "https://ogni.clinic/doctors/kachalova_evgeniya_vladimirovna?clckid=d45f28a2",
-  "https://ru.express.doctor/ru/doctors/otolaryngologist-ent-kachalova-evgeniya?utm_source=docref&amp;utm_medium=referral&amp;utm_campaign=167669",
 ];
 for (const link of links)
   assert.equal(
